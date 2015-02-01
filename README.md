@@ -1,2 +1,7 @@
 # Arduino-multiple-platforms
-ATmega328
+
+programming micro without bootloader , with technical advice to program ISP.
+
+Support:
+
+ATmega328 
