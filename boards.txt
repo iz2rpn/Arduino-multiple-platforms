@@ -36,21 +36,21 @@
 
 ##############################################################
 
-168noP.name=Arduino Atmega168 @1 MHz int crystal
-168noP.upload.protocol=arduino
-168noP.upload.maximum_size=16984
-168noP.upload.speed=115200
-168noP.bootloader.low_fuses=0xff
-168noP.bootloader.high_fuses=0xdf
-168noP.bootloader.extended_fuses=0x07
-168noP.bootloader.path=optiboot
-168noP.bootloader.file=optiboot_atmega328.hex
-168noP.bootloader.unlock_bits=0x3F
-168noP.bootloader.lock_bits=0x0F
-168noP.build.mcu=atmega168
-168noP.build.f_cpu=1000000L
-168noP.build.core=arduino
-168noP.build.variant=standard
+168_1.name=Arduino Atmega168 @1 MHz int crystal
+168_1.upload.protocol=arduino
+168_1.upload.maximum_size=16984
+168_1.upload.speed=115200
+168_1.bootloader.low_fuses=0xff
+168_1.bootloader.high_fuses=0xdf
+168_1.bootloader.extended_fuses=0x07
+168_1.bootloader.path=optiboot
+168_1.bootloader.file=optiboot_atmega328.hex
+168_1.bootloader.unlock_bits=0x3F
+168_1.bootloader.lock_bits=0x0F
+168_1.build.mcu=atmega168
+168_1.build.f_cpu=1000000L
+168_1.build.core=arduino
+168_1.build.variant=standard
 
 ##############################################################
 
