@@ -1,0 +1,37 @@
+##############################################################
+
+328p_16.name=Arduino Atmega328P @16 MHz ext crystal
+328p_16.upload.protocol=arduino
+328p_16.upload.maximum_size=32768
+328p_16.upload.speed=115200
+328p_16.bootloader.low_fuses=0xff
+328p_16.bootloader.high_fuses=0xdf
+328p_16.bootloader.extended_fuses=0x07
+328p_16.bootloader.path=optiboot
+328p_16.bootloader.file=optiboot_atmega328.hex
+328p_16.bootloader.unlock_bits=0x3F
+328p_16.bootloader.lock_bits=0x0F
+328p_16.build.mcu=atmega328p
+328p_16.build.f_cpu=16000000L
+328p_16.build.core=arduino
+328p_16.build.variant=standard
+
+##############################################################
+
+328p_8.name=Arduino Atmega328P @8 MHz int crystal
+328p_8.upload.protocol=arduino
+328p_8.upload.maximum_size=32768
+328p_8.upload.speed=115200
+328p_8.bootloader.low_fuses=0xff
+328p_8.bootloader.high_fuses=0xdf
+328p_8.bootloader.extended_fuses=0x07
+328p_8.bootloader.path=optiboot
+328p_8.bootloader.file=optiboot_atmega328.hex
+328p_8.bootloader.unlock_bits=0x3F
+328p_8.bootloader.lock_bits=0x0F
+328p_8.build.mcu=atmega328p
+328p_8.build.f_cpu=8000000L
+328p_8.build.core=arduino
+328p_8.build.variant=standard
+
+##############################################################
