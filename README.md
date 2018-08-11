@@ -10,3 +10,5 @@ ATmega644
 ATmega328 
 Atmega168
 Atmega8
+
+"THE BEER-WARE LICENSE"
